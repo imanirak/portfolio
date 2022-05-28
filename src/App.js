@@ -1,19 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar'
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+
+
 function App() {
   return (
-    <div>
+    <main>
     <Navbar />
-    <div className="flex flex-col items-center mt-16">
-    <h1 className="text-4xl text-center">
-    Tailwind CSS makes styling React components easier!
-    </h1>
-    <button className="bg-black text-white p-2.5 w-fit mt-9 ">
-    Get Started
-    </button>
-    </div>
-    </div>
+    <About />
+    <Projects />
+    <Skills />
+    <Contact />
+  </main>
   );
 }
 
