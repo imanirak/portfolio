@@ -6,9 +6,9 @@ let Savvy = require("./assets/savvydeco.png");
 export const projects = [
     {
         title: "Little Space",
-        subtitle: "Create your own space and get your business started.",
+        subtitle: "A space for your business",
         description:
-          "Perfect for any new entrepreneur looking to start selling a new product quick and easy. ",
+          "Perfect for new entrepreneurs looking to begin selling a new product. ",
         image:lilspace,
         link: "https://lil-space.herokuapp.com/",
         githublink:"https://github.com/imanirak/little-space"
@@ -24,7 +24,7 @@ export const projects = [
   },
   {
     title: "Reaxion",
-    subtitle: "Create your own space and get your business started.",
+    subtitle: "Get genuine anonymous feedback in a timely manner.",
     description:
       "Enables facilitators to create groups and get emotive feedback within a specific timeframe.",
     image:reaxion,
@@ -44,5 +44,16 @@ export const projects = [
 
 
   export const skills = [
+    "JavaScript",
+    "Python",
+    "React",
+    "Express.js",
+    "Django",
+    "Node",
+    "MongoDB",
+    "PostgreSQL",
+    "Git",
+    "Github",
+   
    
   ];
