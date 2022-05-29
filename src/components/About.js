@@ -16,7 +16,7 @@ export default function About() {
             Hi, I'm Karina.
             <br className="hidden lg:inline-block" /> 
       
-            I enjoy bring projects to life.
+            I enjoy bringing projects to life.
           </h1>
           <p className="mb-8 leading-relaxed font-serif text-zinc-800">
             My inital interest in web development all started with MySpace.
