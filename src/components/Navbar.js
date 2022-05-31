@@ -5,11 +5,9 @@ export default function Navbar() {
   return (
     <header className="bg-yellow-300 md:sticky top-0 z-10">
     <div className="container font-serif mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a className="title-font font-medium text-zinc-800 hover:text-emerald-900 mb-4 md:mb-0">
-        <a href="#about" className="ml-3 text-xl">
+        <a href="#about" className="title-font font-medium text-zinc-800 hover:text-emerald-900 mb-4 md:mb-0 ml-3 text-xl">
          Karina Garces
         </a>
-      </a>
       <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-zinc-800	flex flex-wrap items-center text-base justify-center">
         <a href="#projects" className="mr-5  hover:text-emerald-700">
           Projects

@@ -1,7 +1,5 @@
 import React from 'react'
-import SplineDesign from './Spline';
 
-let Memoji = require("../assets/memoji.png");
 
 
 export default function Contact() {
@@ -34,8 +32,9 @@ function encode(data) {
       <div className="container font-serif px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
   
         <form
-          netlify
+          netlify="true"
           name="contact"
+          
           onSubmit={handleSubmit}
           className="m-30 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-yellow-100 sm:text-4xl text-3xl mb-1 font-medium title-font">

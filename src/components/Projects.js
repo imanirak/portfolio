@@ -12,7 +12,6 @@ export default function Projects() {
           My Projects
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-yellow-300">
-         All my projects using different varieties of the technologies listed above.
          Hover over each project in order to view the code or live deployment.
         </p>
       </div>
@@ -21,6 +20,7 @@ export default function Projects() {
           <a
             href={project.link}
             target="_blank"
+            rel="noreferrer"
             key={project.image}
             className="sm:w-1/2 w-100 p-4">
             <div className="flex relative">
@@ -38,9 +38,9 @@ export default function Projects() {
                 </h2>
                 <p className="leading-relaxed text-zinc-200">{project.description}</p>
                 <br />
-               <a href={project.githublink}  className="text-slate-50 hover:text-yellow-300" target="_blank"> view code</a>
+               <a href={project.githublink}  className="text-slate-50 hover:text-yellow-300" target="_blank" rel="noreferrer"> view code</a>
               
-               <a href={project.link} className=" ml-4  text-slate-50 hover:text-yellow-300" target="_blank">live project</a>
+               <a href={project.link} className=" ml-4  text-slate-50 hover:text-yellow-300" target="_blank" rel="noreferrer">live project</a>
               </div>
             </div>
           </a>

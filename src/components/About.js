@@ -1,8 +1,5 @@
 import React from 'react'
-import SplineDesign from "./Spline";
-
 let Me = require("../assets/karina.png");
-// let backgroundImage = require("../assets/background.jpg")
 let Resume = require("../assets/karinas_resume.pdf");
 
 
