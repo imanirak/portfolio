@@ -19,10 +19,7 @@ export default function Projects() {
         {projects.map((project) => (
       
 
-<div className="sm:w-1/2 w-100 p-4">
-
- 
-
+<div className="pl-10 sm:w-1/2 w-100 p-4">
 <div class="max-w-sm rounded overflow-hidden shadow-lg md:max-w-md:max-w-md lg:max-w-lg xl:max-w-xl">
 <img class="w-full" src={project.image} alt="{}" />
   <div class="px-6 py-4">
