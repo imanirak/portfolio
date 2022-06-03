@@ -28,7 +28,7 @@ function encode(data) {
   }
 
   return (
-   <section id="contact" className="relative bg-emerald-900">
+   <section id="contact" className="relative bg-amber-400 md:px-40 xl:px-60">
       <div className="container font-serif px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
   
         <form
@@ -40,8 +40,8 @@ function encode(data) {
           <h2 className="text-yellow-100 sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5 text-yellow-400 text-left">
-            Looking forward to chatting with you! Please allow me up to 24 hours to respond.
+          <p className="leading-relaxed mb-5 text-red-500 text-left">
+            Looking forward to chatting with you! 
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-zinc-100">
@@ -51,7 +51,7 @@ function encode(data) {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-emerald-700 rounded border border-gray-700 focus:border-yellow-200 focus:ring-2 hover:text-zinc-200 focus:ring-yellow-300 text-base outline-none text-zinc-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-amber-400 rounded border border-gray-700 focus:border-yellow-200 focus:ring-2 hover:text-zinc-200 focus:ring-yellow-300 text-base outline-none text-zinc-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -63,7 +63,7 @@ function encode(data) {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-emerald-700 rounded border border-gray-700 focus:border-yellow-200 focus:ring-2 hover:text-zinc-200 focus:ring-yellow-300 text-base outline-none text-zinc-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-amber-400 rounded border border-gray-700 focus:border-yellow-200 focus:ring-2 hover:text-zinc-200 focus:ring-yellow-300 text-base outline-none text-zinc-800 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -76,13 +76,13 @@ function encode(data) {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-emerald-700 rounded border border-gray-700 focus:border-yellow-200 focus:ring-2  hover:text-zinc-200 focus:ring-yellow-300 h-32 text-base outline-none text-zinc-800 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-amber-400 rounded border border-gray-700 focus:border-yellow-200 focus:ring-2  hover:text-zinc-200 focus:ring-yellow-300 h-32 text-base outline-none text-zinc-800 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button
             type="submit"
-            className="text-emerald-700 bg-yellow-300 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-700 rounded text-lg">
+            className="text-zinc-800 hover:text-yellow-100 bg-red-500 border-0 py-2 px-6  align-left focus:outline-none hover:bg-teal-500 rounded text-lg">
             Submit
           </button>
         </form>
