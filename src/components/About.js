@@ -36,7 +36,7 @@ export default function About() {
         
 
 
-          <div className="pr-20 lg:pr-0 xl:pr-40 lg:pl-10 xl:pl-0 ">
+          <div className="pr-20 pl-10 lg:pr-0 xl:pr-40 lg:pl-10 xl:pl-0 ">
           <img
             className="object-cover object-center rounded-full drop-shadow-md hover:{Memoji}"
             alt="hero"
