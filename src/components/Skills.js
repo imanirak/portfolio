@@ -15,7 +15,7 @@ export default function Skills() {
           Skills &amp; Technologies
         </h1>
         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-red-500">
-          I have utilized the following languages, frameworks <br></br>and other technologies to bring my projects to life.
+          I have utilized the following languages, frameworks and <br></br>other technologies to bring my projects to life.
         </p>
       </div>
 
