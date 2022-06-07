@@ -2,9 +2,6 @@ import React from 'react'
 import Iam from './Iam';
 let Resume = require("../assets/karinas_resume.pdf");
 
-const bold = {
-    color:"text-white"
-}
 
 export default function Intro() {
   return (
