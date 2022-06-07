@@ -11,8 +11,9 @@ export default function Projects() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-yellow-100">
           My Projects
         </h1>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-yellow-100">
-         Hover over each project in order to view the code or live deployment.
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-red-500">
+         Take a look at my most recently projects completed with the technologies list above.<br></br>
+         
         </p>
       </div>
       <div className="flex flex-wrap -m-4">
@@ -55,18 +56,3 @@ export default function Projects() {
 }
 
 
-// <div class="max-w-sm rounded overflow-hidden shadow-lg">
-// <img class="w-full" src={project.image} alt="Sunset in the mountains" />
-//   <div class="px-6 py-4">
-//     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-//     <p class="text-gray-700 text-base">
-//       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-//     </p>
-//   </div>
-//   <div class="px-6 pt-4 pb-2">
-//     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-//     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-//     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-//   </div>
-
-//             </div>

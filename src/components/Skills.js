@@ -1,7 +1,7 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
-import { languages } from "../data";
+
 import Marquee from "react-fast-marquee";
 
 
@@ -14,8 +14,8 @@ export default function Skills() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-yellow-100 mb-4">
           Skills &amp; Technologies
         </h1>
-        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          I have had the pleasure of learning a wide range of skills
+        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-red-500">
+          I have utilized the following languages, frameworks <br></br>and other technologies to bring my projects to life.
         </p>
       </div>
 
